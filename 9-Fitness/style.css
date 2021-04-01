@@ -1,0 +1,418 @@
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    background: url('./iimages/fon1.png') no-repeat;
+    width: 100%;
+    height: 950px;
+    margin: auto;
+}
+header nav{
+    display: flex;
+
+}
+header nav .left ul{
+    display: flex;
+    list-style: none;
+}
+header nav .left ul li{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 30px 15px 200px 30px;
+}
+header nav .left ul .logo{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin: 25px auto auto 35px;
+}
+header nav .left ul .logo span{
+    color: #fa7c30;
+}
+header nav .right ul{
+    display: flex;
+    list-style: none;
+
+}
+header nav .right ul li{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 30px 30px auto auto;
+}
+header nav .right{
+    margin: 0 0 auto 670px;
+}
+header nav .right ul .text{
+    border: 3px solid #ffffff;
+    margin: 15px 0 0 0;
+    padding: 10px;
+}
+header h1{
+    font-size: 70px;
+    font-weight: 400;
+    color: #ffffff;
+    width: 660px;
+    height: 170px;
+    text-align: justify;
+    margin: 0 0 0 275px
+}
+header h1 span{
+    color: #fa7c30;
+}
+header p{
+    font-size: 14px ;
+    font-weight: 400 ;
+    color: #ffffff;
+    margin: 0 690px 0 25px;
+}
+header h2{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    background: #fa7c30;
+    padding: 5px;
+    border: 3px solid #fa7c30 ;
+    width: 100px;
+    margin: 80px 0 0 280px;
+}
+header img{
+    margin: 200px 0 0 150px;
+}
+/* ================section================== */
+section{
+    width: 1510px;
+    height: 1310px;
+    background: #f1f4f6;
+    display: flex;
+    margin: auto;
+
+}
+section .left{
+        margin: 400px 0 0 0;
+}
+section .left h2{
+    font-size: 36px;
+    font-weight: 400;
+    color: #161418;
+    margin: 200px 0 00px 150px ;
+}
+section .left h2 span{
+    color: #fa7c30;
+
+}
+section .left p{
+    font-size: 14px ;
+    font-weight: 400;
+    color: #161418;
+    text-align: justify;
+    width: 380px;
+    height: 190px;
+    margin: 20px 0 0px 150px   ;
+    line-height: 20px;
+}
+section .left .web{
+    color: #161418;
+    opacity: 79%;
+    margin: -100px 0 0 150px;
+}
+section img{
+    margin: 410px 0 0 300px;
+}
+section .left h3{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    background: #fa7c30;
+    padding: 5px;
+    border: 3px solid #fa7c30 ;
+    width: 100px;
+    margin: -80px 0 0 150px;
+}
+/* ===================section2===================== */
+.section2{
+    width: 1510px;
+    height: 975px;
+    margin: auto;
+}
+.section2 h2{
+    font-size: 36px;
+    font-weight: 400;
+    color: #161418;
+    margin: 75px 0 30px -640px;
+}
+.section2 h2 span{
+    color: #fa7c30;
+}
+.section2 p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #161418;
+    opacity: 79%;
+    margin: 0 0 0px -560px;
+}
+.section2 .main{
+    display: flex;
+    margin: 245px;
+}
+.section2 .main .box{
+    width: 345px;
+    height: 700px;
+    margin: -200px 25px 0 0;
+}
+.section2 .main .box .text{
+    width: 350px;
+    height: 250px;
+    background: #f1f4f6;
+    margin: -100px 0 0 0;
+}
+.section2 .main .box .text h2{
+    margin: 100px 0 0 -100px ;   
+    font-size: 26px;
+    font-weight: 400;
+    color: #161418;
+
+    padding: 40px 0 0 0;
+}
+.section2 .main .box .text p{
+    width: 190px;
+    height: 90px;
+    text-align: justify;
+    margin: 10px 0px auto 50px;
+   line-height: 20px;
+}
+.section2 .main .box .text h3{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    background: #fa7c30;
+    padding: 5px;
+    border: 3px solid #fa7c30 ;
+    width: 100px;
+    margin: 0 0 0 50px;
+}
+/* =================HAERT============= */
+.heart{
+    width: 100%;
+    height: 580px;
+    background: url(./iimages/fon2.png) no-repeat;
+    margin: auto;
+}
+.heart h3{
+    font-size: 36px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: auto;
+    padding: 200px 0 0 0;
+}
+.heart h2{
+    font-size: 70px ;
+    font-weight: 400;
+    color: #ffffff;
+    margin: auto;
+    padding: 30px 0 0 0;
+}
+.heart h4{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    background: #fa7c30;
+    padding: 5px;
+    border: 3px solid #fa7c30 ;
+    width: 100px;
+    margin: 30px auto auto auto;
+}
+/* =================LEG=================== */
+.leg{
+    width: 1510px;
+    height: 775px;
+    margin: -70px auto auto auto;
+    background: #f1f4f6;
+}
+.leg h2{
+    font-size: 36px;
+    font-weight: 400;
+    color: #161418;
+    margin: 75px 0 30px -640px;
+}
+.leg h2 span{
+    color: #fa7c30;
+}
+.leg p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #161418;
+    opacity: 79%;
+    margin: 0 0 0px -560px;
+}
+.leg .main{
+    display: flex;
+    margin: 245px;
+}
+.leg .main .box{
+    width: 345px;
+    height: 700px;
+    margin: -200px 25px 0 0;
+}
+.leg .main .box .text{
+    width: 350px;
+    height: 250px;
+    margin: -100px 0 0 0;
+}
+.leg .main .box .text h2{
+    margin: 100px 0 0 -100px ;   
+    font-size: 26px;
+    font-weight: 700;
+    color: #161418;
+    padding: 40px 0 0 0;
+}
+.leg .main .box .text p{
+    width: 190px;
+    height: 90px;
+    text-align: justify;
+    margin: 10px 0px auto 50px;
+   line-height: 20px;
+}
+.leg .main .box .text h3{
+    font-size: 14px;
+    font-weight: 700;
+    color: #fa7c30;
+    padding: 5px;
+    width: 150px;
+    margin: 0 0 0 50px;
+    
+}
+/* ===========FOOT========= */
+.foot{
+    height: 435px;
+    width: 1510px;
+    display: flex ;
+
+}
+.foot .left{
+    width: 50%;
+    height: 435px;
+    background: url(./iimages/fon3.png) no-repeat;
+    
+
+}
+.foot .right{
+    width: 50%;
+    height: 435px;
+    background: url(./iimages/fon4.png) no-repeat;
+
+}
+.foot .left h3{
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 125px 0 30px 0;
+}
+.foot .left h2{
+    font-size: 46px;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 0 0 30px 0;
+}
+.foot .left h4{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    background: #fa7c30;
+    padding: 5px;
+    border: 3px solid #fa7c30 ;
+    width: 100px;
+    margin: auto;
+}
+.foot .right h3{
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 125px 0 30px 0;
+}
+.foot .right h2{
+    font-size: 46px;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 0 0 30px 0;
+}
+.foot .right h4{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    background: #fa7c30;
+    padding: 5px;
+    border: 3px solid #fa7c30 ;
+    width: 100px;
+    margin: auto;
+}
+/* =====================footer================ */
+footer{
+    width: 1510px;
+    height: 560px;
+    display: flex;
+    background: #161418;
+}
+
+footer .box {
+    width: 440px;
+    height: 360px;
+}
+footer .box h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 100px auto 30px  -170px;
+}
+footer .box span{
+    color: #fa7c30;
+}
+footer .box p{
+    color: #ffffff ;
+    text-align: justify;
+    margin: auto auto auto 60px;
+}
+footer .box .text{
+    display: flex;
+    margin: 20px;
+}
+footer .box .text h2{
+    font-size: 14px;
+    margin: 70px auto auto 50px;
+}
+footer .box .text img{
+    width: 240px;
+    height: 30px;
+    margin: 70px auto auto auto;
+}
+footer .bot h2{
+    color: #ffffff;
+    margin: auto auto 50px auto;
+}
+footer .bot{
+    margin: 100px 50px auto 50px;
+}
+footer .bot .nike{
+    display: flex   ;
+}
+footer .bot .nike p{
+    width: 200px;
+    height: 60px;
+    color: #ffffff;
+    text-align: justify;
+}
+footer .boy h2{
+    color: #ffffff;
+    margin: 90px auto auto;
+}
+footer .boy img{
+    margin: 50px auto auto auto ;
+} 
+
+ 

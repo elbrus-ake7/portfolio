@@ -1,0 +1,715 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* ============Starting heaer============ */
+
+
+header {
+    background: url(../images/header_bg.png) center / cover;
+    padding-bottom: 280px;
+}
+
+
+
+
+/* --------------starting = hedaer-top---------------- */
+
+
+.header-top li {
+    font-size: 12px;
+    font-weight: 700;
+    color: #191919;
+    text-transform: uppercase;
+}
+.active a {
+    color: #007d2f!important;
+}
+/* --------------end = hedaer-end---------------- */
+
+
+
+
+
+/* --------------starting = hedaer-main---------------- */
+
+
+.header-main h1 {
+    font-size: 35.84px;
+    font-weight: 700;
+    color: #1d1d1d;
+    margin: 75px 0 35px;
+}
+.header-main p {
+    font-size: 15.36px;
+    font-weight: 300;
+    line-height: 23.9px;
+    color: #787878;
+    margin-bottom: 55px;
+    padding: 0;
+}
+.header-main button {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    background: #007d2f;
+    padding: 22px 57px 23px 45px;
+    border: none;
+}
+.header-main button:hover {
+    opacity: .8;
+}
+/* --------------end = hedaer-main---------------- */
+
+/* ============end heaer============ */
+
+
+
+
+
+
+/* ============starting main============ */
+
+
+
+
+/* -----------------------starting = main-about--------------------- */
+
+
+.main-about {
+    padding: 100px 0 40px;
+}
+.main-about h2 {
+    font-size: 34.43px;
+    font-weight: 400;
+    color: #191919;
+    margin-bottom: 44px;
+
+}
+.main-about p {
+    font-size: 13.82px;
+    font-weight: 400;
+    line-height: 20.73px;
+    color: #787878;
+    margin: auto;
+    margin-bottom: 50px;
+}
+/* -----------------------end = main-about--------------------- */
+
+
+
+
+/* -----------------starting = main-skills----------------- */
+
+
+.main-skills {
+    background: url(../images/skills-img.png) 0 0 / cover;
+    background-position: center;
+    padding: 165px 0;
+}
+.main-skills h3 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #171717;
+    padding-bottom: 40px;
+}
+.main-skills .progress-title {
+    display: flex;
+    margin-bottom: 19px;
+}
+.main-skills .progress-title p {
+    font-size: 12px;
+}
+.main-skills .progress-title span {
+    font-size: 12px;
+    padding-left: 18px;
+}
+.main-skills .progress {
+    height: 3px;
+    border-radius: 0;
+    background: #d8d8d8;
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+.main-skills .progress-bar {
+    background: #007d2f;
+}
+/* -----------------end = main-skills----------------- */
+
+
+
+
+/* -----------------starting = main-works ( main-works-main )----------------- */
+
+
+.main-works-top {
+    background: #007d2f;
+    padding: 75px 0;
+}
+.main-works-top p {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px 0 15px;
+    color: #fff;
+}
+.main-works-top p:nth-child(3) {
+    font-size: 12px;
+    padding: 0;
+}
+
+.main-works-main img {
+    width: 100%;
+    height: 100%;
+}
+.main-works-main .row div {
+    position: relative;
+}
+.main-works-main .row div:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: url(../images/eye.png) no-repeat #787878;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+    transform: scale(0);
+}
+.main-works-main .row div:hover:after {
+    opacity: .5;
+    transform: scale(1);
+    cursor: pointer;
+}
+/* -----------------end = main-works----------------- */
+
+
+
+
+/* -----------------starting = main-footer-------------- */
+
+
+.main-footer {
+    background: #007d2f;
+    padding: 45px 0 40px;
+    text-align: center;
+    font-size: 21.13px;
+}
+.main-footer a {
+    color: #fff;
+}
+.main-footer a:hover {
+    text-decoration: none;
+}
+/* -----------------end = main-footer-------------- */
+
+
+
+
+/* --------------------starting = main-process------------------- */
+
+
+.main-process {
+    padding: 100px 0;
+}
+.main-process h2 {
+    font-size: 43.62px;
+    font-weight: 400;
+    color: #191919;
+    padding-bottom: 30px;
+}
+.main-process p {
+    font-size: 22.28px;
+    font-weight: 400;
+    line-height: 33.42px;
+    color: #787878;
+    padding-bottom: 50px;
+}
+.main-process video {
+    width: 100%;
+    max-height: 570px;
+}
+/* --------------------end = main-process------------------- */
+
+
+
+
+/* -----------------------starting = main-offers---------------------- */
+
+
+.main-offers {
+    background: #f5f5f5;
+    padding: 105px 0 55px;
+}
+.main-offers h4 {
+    font-size: 12px;
+    font-weight: 600;
+    color: #191919;
+    padding: 25px 0 20px;
+}
+.main-offers p {
+    font-size: 16px;
+    font-size: 400;
+    line-height: 23.79px;
+    color: #787878;
+    padding-bottom: 50px;
+}
+/* -----------------------end = main-offers---------------------- */
+
+
+
+
+/* -----------------------starting = main-carousel-------------------- */
+
+
+.main-carousel {
+    background: #007d2f;
+    padding: 190px 0 50px;
+}
+.main-carousel p {
+    font-size: 19.73px;
+    font-weight: 400;
+    line-height: 29.6px;
+    color: #fff;
+    padding-bottom: 45px;
+}
+.main-carousel h5 {
+    font-size: 16.41px;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 100px;
+}
+.main-carousel .carousel-indicators li {
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+}
+.main-carousel .carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+}
+/* -----------------------end = main-carousel-------------------- */
+
+
+
+
+/* ----------------------starting = main-brands------------------- */
+.main-brands {
+    padding: 60px 0;
+}
+/* ----------------------end = main-brands------------------- */
+
+
+
+
+/* ------------------------starting = main-send-msg------------------------*/
+
+
+.main-send-msg {
+    background: #f5f5f5;
+    padding: 25px 0 100px;
+}
+.main-send-msg h2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #1d1d1d;
+    padding-bottom: 40px;
+}
+.main-send-msg p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #787878;
+    padding-bottom: 40px;
+}
+.main-send-msg input {
+    font-size: 15px;
+    color: #787878;
+    width: 100%;
+    border: 0;
+    background: #fff;
+    padding: 14px 18px;
+    margin-bottom: 30px;
+}
+.main-send-msg textarea {
+    font-size: 15px;
+    line-height: 24px;
+    width: 100%;
+    border: none;
+    background: #fff;
+    padding: 14px 18px;
+    margin-bottom: 30px;
+    resize: none;
+}
+.main-send-msg button {
+    padding: 23px 25px;
+    font-size: 12px;
+    color: #fff;
+    border: none;
+    background: #007d2f;
+}
+.main-send-msg button:hover {
+    opacity: .8;
+}
+/* ------------------------end = main-send-msg-----------------------*/
+
+
+
+
+
+/* ==================== Starting footer =================*/
+
+
+
+footer {
+    background: #141414;
+    padding: 100px 0;
+}
+footer h2 {
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 30px;
+}
+footer p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #bcbcbc;
+}
+footer a {
+    font-size: 15px;
+    line-height: 24px;
+    color: #bcbcbc;
+}
+footer a:hover {
+    color: aliceblue;
+    text-decoration: none;   
+}
+/* ==================== End footer =================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////////////////////////////////////////////////// About HTML \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+
+
+/* ====================== starting hedaer ======================= */
+
+
+.about {
+    background: #323232;
+    padding: 0;
+}
+
+.about-header-top {
+    background: #fff!important;
+}
+
+.about-header-main {
+    padding: 115px 0;
+}
+.about-header-main h1 {
+    font-size: 61.69px;
+    color: #fff;
+    padding-bottom: 23px;
+    margin: 0;
+}
+.about-header-main p {
+    font-size: 22.52px;
+    line-height: 35.04px;
+    color: #fff;
+    margin-bottom: 0;
+}
+/* ====================== end hedaer ======================= */
+
+
+
+
+
+/* ====================== starting about-me ======================= */
+
+.about-me {
+    background: url(../images/about-me-bg.png) no-repeat  0 0 / cover;
+    background-position: center;
+    padding: 140px 0;
+}
+.about-me h2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #171717;
+    padding-bottom: 40px;
+}
+.about-me p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #787878;
+    padding-bottom: 35px;
+}
+/* ====================== end about-me ======================= */
+
+
+
+/* ===================== about-project =================*/
+.about-project {
+    padding: 105px 0 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //////////////////////////////////////////////// CONTACT HTML \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+
+
+.contact-info {
+    padding: 100px 0;
+}
+.contact-info p:nth-child(2) {
+    padding-bottom: 40px;
+}
+.contact-info p {
+    padding-bottom: 25px;
+}
+.contact-info span {
+    color: #171717;
+    font-weight: bold;
+    padding-right: 9px;
+}
+.contact-info a {
+    color: #787878!important;    
+}
+.contact-info a:hover {
+    text-decoration: none;  
+    color: #171717;  
+}
+
+.contact-map {
+    padding: 100px 0;
+}
+
+
+
+
+
+
+/* /////////////////////////////////////////////// PROJECT HTML \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.project-single-carousel .arrows {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 0;
+    background: #007d2f;
+}
+.project-single-carousel .arrows a {
+    position: unset;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;    
+}
+.project-single-carousel .arrows a span {
+    padding: 0 15px;    
+}
+
+
+
+
+.project-single {
+    background: url(../images/project-1.png) no-repeat 0 0/ cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+/* //////////////////////////////////// PROCESS HTML \\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+.process {
+    background: #007d2f;
+    padding: 0;
+}
+.process-header-main {
+    padding: 110px 0 100px;
+}
+.process-header-main h1 {
+    font-size: 30.02px;
+    color: #171717;
+    margin: 0 0 30px;
+}
+.process-header-main p {
+    font-size: 17.29px;
+    line-height: 26.9px;
+    color: #fefefe;
+    margin: 0;
+}
+.main-process-works .row div:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: url(../images/eye.png) no-repeat rgb(66, 136, 93);
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+    transform: scale(0);
+}
+.main-process-works .row div:hover:after {
+    opacity: .5;
+    transform: scale(1);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    .main-skills {
+        background: none;
+        background-color: rgba(248, 249, 249, 0.6);
+        position: relative;
+        padding: 0;
+    }
+    .main-skills:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: url(../images/skills-img-media.png) 0 0 / cover;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+    .main-skills-left {
+        padding: 50px 0;
+        padding-left: 15px;
+    }
+
+    .main-process h2 {
+        font-size: 34.62px;
+        
+    }
+    .main-process p {
+        font-size: 12.28px;
+        
+    }
+    
+    /* '''''''''''''''''''About'''''''''''''''' */
+    .about-header-main h1 {
+        font-size: 35px;
+    }
+    .about-header-main p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .about-me {
+        background: none;
+        background-color: rgba(248, 249, 249, 0.6);
+        position: relative;
+        padding: 100px 0;
+    }
+    .about-me:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: url(../images/about-me.png) 0 0 / cover;
+        background-position: top;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+    .about-me p {
+        color: #000000;
+    }
+
+
+    /* ''''''''''''''''''' project-single '''''''''''''''''''''''' */
+    .project-single {
+        background: none;
+        background-color: rgba(26, 24, 24, 0.534);
+        position: relative;
+        padding: 60px 0;
+    }
+    .project-single:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: url(../images/project-1-minpng.png) 0 0 / cover;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+    .project-single p, .project-single h2, .project-single span, .project-single a {
+        color: #fff!important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .main-works-top {
+        background: #007d2f;
+        padding: 25px 0;
+    }
+    .main-works-top .row div {
+        margin-bottom: 25px;
+    }
+
+    .main-offers {
+        padding: 50px 0 0;
+    }
+
+    .main-carousel {
+        padding: 90px 0 50px;
+    }
+}
